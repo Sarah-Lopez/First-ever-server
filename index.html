@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <title>Restaurant Manager</title>
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Hot Restaurant</h1>
+        <h2 class="subtitle">Hurry...<span>We Only Have Five Tables Left!</span></h2>
+
+        <div class="options">
+            <div class="tables option">
+                Check Tables
+            </div>
+            <div class="reserve option">
+                Reserve a Table
+            </div>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form class="form-reservation">
+            <div class="input-container">
+                <input type="text" name="name" id="name">
+                <label for="name" class="input-label">Name</label>
+            </div>
+            <div class="input-container">
+                <input type="number" name="number" id="number">
+                <label for="number" class="input-label">Number</label>
+            </div>
+            <div class="input-container">
+                <input type="email" name="email" id="email">
+                <label for="email" class="input-label">Email Address</label>
+            </div>
+            <div class="input-container">
+                <input type="number" name="ID" id="identifier">
+                <label for="ID" class="input-label">ID</label>
+            </div>
+            <div class="input-container">
+                <!-- <input type="submit" name="submit" id="submit">
+                <label for="submit" class="input-label">Place Reservation</label> -->
+
+                <button type="submit" id="submit">
+                    Place Reservation :)
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- 
+    DATA NEEDED
+    table objects
+ -->
